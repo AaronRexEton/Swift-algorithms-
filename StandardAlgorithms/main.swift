@@ -5,7 +5,7 @@
 //  Created by Rex, Aaron (SPH) on 05/11/2019.
 //  Copyright © 2019 Rex, Aaron (SPH). All rights reserved.
 //
-let sorting = Sorting()
+/* let sorting = Sorting()
 let searching = Searching()
 let data = [207, 758, 871, 960, 644, 182, 812, 313, 477, 381, 288, 906, 865, 160, 142, 993, 13, 252, 101, 696, 481, 444, 187, 207, 629, 274, 61, 154, 260, 838, 484, 245, 813, 269, 800, 579, 703, 803, 521, 815, 163, 911, 666, 612, 585, 784, 364, 472, 899, 591]
 
@@ -42,7 +42,7 @@ if let input = readLine() {
         print(data)
         print(sorting.quickSort(array: data))
         
-        
+
     }
     else if input == "Merge Sort" {
         print("Merge sort is a divide-and-conquer algorithm based on the idea of breaking down a list into several sub-lists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list \n Complexity ranges from O(NlogN) in worst case to O(logN)")
@@ -52,4 +52,6 @@ if let input = readLine() {
     else {
         print("Invalid input")
     }
-}
+
+ }
+*/

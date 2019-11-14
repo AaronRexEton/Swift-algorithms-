@@ -15,7 +15,7 @@ class SearchingTest: XCTestCase {
         let testCases = [(numberToFind: 7, input: [10, 3, 2,7, 1], expected: true), (numberToFind: 300, input: [456, 300, 3, 1, 5, 4], expected: true)]
         //act
         //assert
-        for testCase in testCases {
+        for testCase in testCases { 
             let actual = searching.linearSearch(array: testCase.input, numberToFind: testCase.numberToFind)
             XCTAssertEqual(actual, testCase.expected)
             
