@@ -75,7 +75,7 @@ class SearchingTest: XCTestCase {
         let searching = Searching()
             
         measure {
-            searching.linearSearch(array: data, numberToFind: 899)
+            searching.linearSearch(array: data, numberToFind: 111)
         
         }
 
@@ -117,7 +117,7 @@ class SearchingTest: XCTestCase {
         let searching = Searching()
             
         measure {
-            searching.binarySearch(array: data, numberToFind: 899)
+            searching.binarySearch(array: data, numberToFind: 111)
         
         }
 
